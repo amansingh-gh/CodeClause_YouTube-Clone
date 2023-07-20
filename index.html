@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <!-- fontAwasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" type="image/x-icon" href="src/img/facicon.png">
+    <script src="src/app.js" defer></script>
+</head>
+
+<body>
+    <div id="youtube">
+        <div id="nav">
+            <div class="logo"><img src="./src/img/youtube.svg" alt="youtube" height="28" width="35"><span
+                    class="logo_txt">YouTube<sup>IN</sup></span></div>
+            <div class="search_con">
+                <input type="text" class="search" spellcheck="false" placeholder="Search">
+                <button class="search_btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-video-slash"></i>
+                <i class="fas fa-th"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+        <div id="bottom_menu">
+            <ul>
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fab fa-affiliatetheme"></i> Trending</li>
+                <li><i class="fas fa-rss-square"></i> SubCription</li>
+                <li><i class="fas fa-photo-video"></i>Library</li>
+            </ul>
+        </div>
+        <div id="menu">
+            <div class="main_menu menu_items">
+                <ul>
+                    <li><i class="fas fa-home"></i> Home</li>
+                    <li><i class="fab fa-affiliatetheme"></i> Trending</li>
+                    <li><i class="fas fa-rss-square"></i> SubCription</li>
+                </ul>
+            </div>
+            <div class="secondery_menu menu_items">
+                <ul>
+                    <li><i class="fas fa-photo-video"></i>Library</li>
+                    <li><i class="fas fa-history"></i> History</li>
+                    <li><i class="fas fa-film"></i> Your videos</li>
+                    <li><i class="fas fa-clock"></i> Watch later</li>
+                    <li><i class="fas fa-thumbs-up"></i>liked videos</li>
+                    <li><i class="fas fa-angle-down"></i> Show more</li>
+                </ul>
+            </div>
+            <div class="subcriptions menu_items">
+                <h3>SUBSCRIPTIONS</h3>
+                <ul>
+                    <li><img src="https://cdn2.f-cdn.com/contestentries/69487/7132715/53413d208fa09_thumb900.jpg"
+                            alt="">Codeing Zone<i class="fas fa-wifi"></i></li>
+                    <li><img src="https://source.unsplash.com/random/300×300" alt="">The ultimate<i
+                            class="fas fa-wifi"></i></li>
+                    <li><img src="https://2.bp.blogspot.com/-Jbt_mixGBBA/WlegxKJQNsI/AAAAAAAAAGg/1W6wjscGBJcmp6AYgzoN7knJcLNsOvYZACLcBGAs/s1600/yMrvZK23.jpg"
+                            alt="">Amit badhana<i class="fas fa-wifi"></i></li>
+                    <li><img src="https://i.ytimg.com/vi/7mFvyrNHZRY/sddefault.jpg" alt="">Carry minati<i
+                            class="fas fa-wifi"></i></li>
+                    <li><img src="https://yt3.ggpht.com/ytc/AAUvwniwccxGvXvGzzwka5f73aPbmdxvEX4G_cUd7TEzkw=s900-c-k-c0x00ffffff-no-rj"
+                            alt="">Clever Programer<i class="fas fa-wifi"></i></li>
+                    <li><img src="https://musically.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-03-at-12.41.34-742x500.png"
+                            alt="">T-serise<i class="fas fa-wifi"></i></li>
+                    <li><img src="https://play-lh.googleusercontent.com/WJi-7GwazzPDrttzce_wFZBBwZgP1eOkJUtWxWKTy1AiJRGIRfOvr_Neg-iMBrpLYgI"
+                            alt="">ultimate music<i class="fas fa-wifi"></i></li>
+                    <li><img src="https://i1.sndcdn.com/avatars-000272080508-tnxtb4-t500x500.jpg" alt="">Deno jems<i
+                            class="fas fa-wifi"></i></li>
+                    <li><img src="https://source.unsplash.com/user/erondu/50x50" alt="">The ultimate<i
+                            class="fas fa-wifi"></i></li>
+                    <li><img src="https://thetechportal.com/wp-content/uploads/2020/03/youtube-dark-the-tech-portal.jpg"
+                            alt="">Youtube Originial<i class="fas fa-wifi"></i></li>
+                    <li><i class="fas fa-angle-down"></i> Show more 16+</li>
+                </ul>
+            </div>
+            <div class="more menu_items">
+                <h3>MORE FROM YOUTUBE</h3>
+                <ul>
+                    <li><i class="fab fa-youtube"></i>Youtube premium</li>
+                    <li><i class="fas fa-film"></i>Films</li>
+                    <li><i class="fas fa-gamepad"></i>Gaming</li>
+                    <li><i class="fas fa-wifi"></i>Live</li>
+                    <li><i class="fas fa-vest-patches"></i>Fashion & beauty</li>
+                    <li><i class="fas fa-lightbulb"></i>Learning</li>
+                    <li><i class="fas fa-trophy"></i>Sport</li>
+                </ul>
+            </div>
+            <div class="setting menu_items">
+                <li><i class="fas fa-cog"></i>Setting</li>
+                <li><i class="fas fa-flag"></i>Report history</li>
+                <li><i class="fas fa-question-circle"></i>Help</li>
+                <li><i class="fas fa-comment-alt"></i>Send feadback</li>
+
+            </div>
+            <div class="copy menu_items">
+                This project assigned by CodeClasue<br>
+                © 2023 Aman
+            </div>
+        </div>
+        <div id="content">
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>6:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">52K views • 2 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://i.ytimg.com/vi/LKZYTdIS8Lc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAk_Ou4g5k1dW1ga6L2viddx6jkRQ"
+                            alt=""><span>3:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">252K views • 6 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:50</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">222K views • 8 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/random/500x600"
+                            alt=""><span>4:20</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152M views • 1 Year ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>1:10:20</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">512K views • 1 Month ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/user/erondu/500x600"
+                            alt=""><span>2:20:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">52K views • 50 min ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>8:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">652K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/weekly?water" alt=""><span>6:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">852K views • 5 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>8:00</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">12K views • 3 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/user/erondu/500x600"
+                            alt=""><span>1:45</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">120K views • 5 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/weekly?water" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <img src="https://source.unsplash.com/user/erondu/50x50" alt="">
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/random/500x600"
+                            alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/random/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/random/500x600"
+                            alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/user/erondu/500x600"
+                            alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/weekly?water" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/user/erondu/500x600"
+                            alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://picsum.photos/200" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"> <img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <div class="thumbline"><img src="https://source.unsplash.com/weekly?water" alt=""><span>2:10</span>
+                        <div class="watch_later"><i class="fas fa-history"></i></div>
+                        <div class="add_que"><i class="fas fa-align-right"></i></div>
+                    </div>
+                    <div class="profile_title">
+                        <div class="img"><img src="https://source.unsplash.com/user/erondu/50x50" alt=""></div>
+                        <p>Sequi Atque Xupiditate. Enim Qui Laudantium Harum?</p>
+                    </div>
+                    <div class="details">
+                        <p class="channel">the ultimate Programing</p>
+                        <p class="views">152K views • 1 hour ago</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
